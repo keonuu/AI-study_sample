@@ -1,0 +1,6 @@
+sample_id,condition,mapping_rate,read_count
+S01,control,0.92,35000
+S02,treated,0.76,28000
+S03,treated,0.84,41000
+S04,control,0.79,30000
+S05,treated,0.95,46000
