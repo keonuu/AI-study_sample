@@ -48,6 +48,17 @@ N일차 시작하자. 오늘은 00_MasterPlan.md 기준으로 진행해줘.
 5. LLM Wiki에 남길 핵심 노트를 만든다.
 6. 다음날 이어갈 질문 3개를 작성한다.
 
+## Practice Difficulty Protocol
+
+매일 학습 점검 문제는 쉬운 문제만 반복하지 않고 난이도를 단계적으로 올린다.
+
+1. 기초 문제: 출력 예측, 문법 확인, 한 줄 의미 설명
+2. 중간 문제: 조건문, 반복문, 함수, dictionary 등 여러 개념을 조합
+3. 상급 문제: 버그가 있는 코드를 고치거나 작은 분석 로직을 직접 설계
+4. 실전 문제: 힌트를 줄이고 작은 데이터 분석 또는 자동화 과제를 끝까지 수행
+
+초보 단계에서는 개념 이해를 놓치지 않기 위해 기초 문제로 시작하되, 매일 마지막에는 최소 1개의 중간 또는 상급 문제를 포함한다.
+
 ## Source And Evidence Policy
 
 - 일반적인 개념 설명은 쉬운 설명을 우선한다.
@@ -138,7 +149,7 @@ N일차 시작하자. 오늘은 00_MasterPlan.md 기준으로 진행해줘.
 | 12 | Git/GitHub 실습 | branch, commit message, push, pull request 연습 |
 | 13 | EDA와 시각화 | 데이터 요약 리포트 |
 | 14 | Bioinformatics 데이터 형태 | sample x feature, gene expression matrix 노트 |
-| 15 | 머신러닝 기본 구조 | feature, label, train/test split 노트 |
+| 15 | 머신러닝 기본 구조와 Python class/method 입문 | feature, label, train/test split, model 객체 사용 노트 |
 | 16 | scikit-learn 첫 모델 | baseline model 실습 |
 | 17 | 모델 평가와 데이터 누수 | accuracy, precision, recall, leakage 정리 |
 | 18 | Embedding, vector search, RAG | LLM Wiki 검색 구조 설계 |
@@ -169,6 +180,8 @@ N일차 시작하자. 오늘은 00_MasterPlan.md 기준으로 진행해줘.
 
 - 머신러닝은 입력 feature에서 target label을 예측하는 함수 근사 문제로 이해한다.
 - train/test split을 왜 하는지 배운다.
+- scikit-learn의 `model.fit()`과 `model.predict()`를 읽기 위해 Python class, object, method의 최소 개념을 배운다.
+- 이 단계의 목표는 class를 직접 잘 설계하는 것이 아니라, class로 만들어진 도구를 정확히 읽고 사용하는 것이다.
 
 ### Day 16 Details
 
