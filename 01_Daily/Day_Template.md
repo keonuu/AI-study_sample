@@ -12,6 +12,28 @@
 - Tools or packages we may need:
 - Approval needed:
 
+## Concept Blocks
+
+### Concept Block 1
+
+- Concept:
+- Explanation:
+- Short example:
+- Check question:
+- User answer:
+- Feedback:
+- Follow-up needed:
+
+### Concept Block 2
+
+- Concept:
+- Explanation:
+- Short example:
+- Check question:
+- User answer:
+- Feedback:
+- Follow-up needed:
+
 ## Concept First
 
 -
@@ -26,9 +48,36 @@
 
 -
 
+## Practice Questions And Feedback
+
+### Basic
+
+- Question:
+- User answer:
+- Feedback:
+
+### Intermediate
+
+- Question:
+- User answer:
+- Feedback:
+
+### Hard
+
+- Question:
+- User answer:
+- Feedback:
+
 ## What I Learned
 
 -
+
+## Correction Points
+
+- What was correct:
+- What was wrong or unclear:
+- Corrected understanding:
+- Needs review later:
 
 ## LLM Wiki Note Candidate
 
@@ -53,4 +102,3 @@ Sources:
 - Commit needed:
 - Why:
 - Suggested commit message:
-
