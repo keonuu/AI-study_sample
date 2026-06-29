@@ -1,4 +1,4 @@
-﻿# Obsidian LLM Wiki 실전 운영 원칙
+# Obsidian LLM Wiki 실전 운영 원칙
 
 Tags: `LLM Wiki`, `Obsidian`, `Agent`, `Research Workflow`, `Ingest`, `Knowledge Management`
 
@@ -19,6 +19,26 @@ My Understanding: 사람이 검토하고 자기 언어로 다시 쓴 내용
 Question: 아직 모르는 점과 다음 탐구 방향
 Project Log: 실제 작업 기록과 의사결정
 ```
+
+## My Understanding Rule
+
+`My Understanding`은 AI가 대신 확정하는 영역이 아니다. AI는 후보 문장, 반론, 빠진 한계, 연결 가능한 개념을 제안할 수 있지만, 최종 문장은 사람이 읽고 검토한 뒤 자기 언어로 작성하거나 명시적으로 승인해야 한다.
+
+따라서 LLM Wiki의 목적은 "AI가 읽은 척한 결과를 저장하는 것"이 아니라, "AI의 도움을 받아 내가 읽고 이해한 내용을 추적 가능한 형태로 저장하는 것"이다.
+
+## Understanding Status
+
+논문 노트와 source note에는 이해 상태를 표시한다.
+
+```text
+unread: 아직 읽지 않음
+ai_skimmed: AI 요약만 받은 상태
+read_basic: 사람이 요약과 핵심 내용을 읽고 확인한 상태
+deep_ingested: 기존 Wiki와 연결하고 질문까지 정리한 상태
+working_knowledge: 내 연구/분석에 적용할 수 있을 정도로 정리한 상태
+```
+
+`ai_skimmed`는 지식이 아니라 정리 후보에 가깝다. 이 상태의 내용을 근거로 연구 판단을 내리면 안 된다.
 
 ## General Ingest
 
@@ -97,6 +117,7 @@ My_LLM_Wiki
 ## Safety Rules
 
 - AI 요약은 반드시 사람이 읽는다.
+- `My Understanding`은 사람이 자기 언어로 쓰거나 명시적으로 승인한다.
 - 핵심 연구 주장은 출처를 확인한다.
 - 내 해석과 원문 주장을 섞지 않는다.
 - 대량 PDF 다운로드는 도서관 정책, 저작권, 라이선스 위험을 먼저 확인한다.

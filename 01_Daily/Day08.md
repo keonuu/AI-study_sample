@@ -1,4 +1,4 @@
-﻿# Day 08 - Obsidian LLM Wiki 실전 운영 설계
+# Day 08 - Obsidian LLM Wiki 실전 운영 설계
 
 ## Today's Goal
 
@@ -16,6 +16,8 @@ Obsidian을 개인 LLM Wiki로 쓰기 위한 폴더 구조, 노트 템플릿, in
 - 논문 Wiki, 분석 Wiki, 원고 Wiki는 목적이 다르므로 같은 구조로 섞지 않는 편이 좋다고 정리했다.
 - 일반 ingest와 deep ingest를 구분했다.
 - 출처 원문, AI 요약, 내 해석, 질문, 작업 로그를 분리해서 저장해야 함을 배웠다.
+- `My Understanding`은 AI가 대신 확정하는 문장이 아니라, 내가 읽고 검토한 뒤 내 언어로 작성하거나 명시적으로 승인한 문장이어야 함을 정리했다.
+- 논문 노트에는 내가 실제로 어느 수준까지 읽고 이해했는지 `Understanding status`로 표시해야 함을 배웠다.
 - LLM Wiki에서 검색 품질은 계속 점검해야 하며, 작은 Wiki에서는 `rg` 같은 키워드 검색도 실용적일 수 있음을 정리했다.
 - 대량 PDF 다운로드는 도서관 정책, 저작권, 라이선스 문제가 생길 수 있으므로 조심해야 한다.
 - Obsidian LLM Wiki의 기본 구조와 템플릿 초안을 `06_LLM_Wiki` 폴더에 작성했다.
@@ -31,6 +33,15 @@ LLM Wiki는 다음 세 가지를 분리해서 저장하는 시스템이다.
 ```
 
 이 세 가지가 섞이면 나중에 어떤 내용이 원문 근거인지, 어떤 내용이 AI의 해석인지, 어떤 내용이 내 판단인지 구분하기 어려워진다.
+
+중요한 원칙:
+
+```text
+AI Summary = AI가 정리한 내용
+My Understanding = 내가 읽고, 검토하고, 내 언어로 확정한 내용
+```
+
+AI는 `My Understanding` 후보, 질문, 반론, 빠진 한계, 연결 가능한 개념을 제안할 수 있다. 하지만 최종 `My Understanding`은 내가 직접 쓰거나, 최소한 내가 읽고 동의한 뒤 저장해야 한다.
 
 ## LLM Wiki Is Not One-Click Knowledge
 
@@ -52,6 +63,20 @@ LLM Wiki는 다음 세 가지를 분리해서 저장하는 시스템이다.
 ```text
 PDF 업로드 -> 요약 생성 -> 읽지 않음 -> 안다고 착각
 ```
+
+## Understanding Status
+
+논문 노트에는 이해 수준을 표시한다.
+
+```text
+unread = 아직 읽지 않음
+ai_skimmed = AI 요약만 받은 상태
+read_basic = 내가 요약을 읽고 핵심을 확인한 상태
+deep_ingested = 기존 Wiki와 연결하고 질문까지 정리한 상태
+working_knowledge = 내 연구/분석에 적용할 수 있을 정도로 정리한 상태
+```
+
+`ai_skimmed` 상태의 노트는 참고 자료일 뿐, 내가 이해한 지식으로 취급하지 않는다.
 
 ## General Ingest vs Deep Ingest
 

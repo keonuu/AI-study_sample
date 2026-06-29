@@ -1,7 +1,8 @@
-﻿# {{paper_title}}
+# {{paper_title}}
 
 Type: source
 Status: draft
+Understanding status:
 Topics:
 Source:
 Authors:
@@ -44,6 +45,8 @@ Last updated:
 -
 
 ## My Understanding
+
+<!-- AI가 대신 확정하는 영역이 아니다. 읽고 검토한 뒤 내 언어로 작성하거나 명시적으로 승인한다. -->
 
 -
 
