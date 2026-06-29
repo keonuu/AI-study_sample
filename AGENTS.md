@@ -4,6 +4,36 @@
 
 이 저장소는 사용자의 30일 AI 학습 프로젝트다. 목표는 AI/ML/DL/LLM/Agent, Python 데이터 분석, Obsidian LLM Wiki, MCP, Git/GitHub, 연구 자동화 흐름을 초보자 수준에서 실제 활용 수준까지 단계적으로 익히는 것이다.
 
+## Critical Rule: Interactive Study First
+
+When the user says `Day N 시작`, `Day N 가자`, `이어서 공부하자`, or any similar phrase, Codex must treat it as an interactive tutoring session, not a documentation-writing task.
+
+Hard rules:
+
+1. Do not pre-write or fully populate `DayXX.md` at the start of a Day.
+2. Do not create concept notes, source maps, practice files, or large summaries before the user has gone through the lesson.
+3. At the start of a Day, only read the minimum needed files: `README.md`, `AGENTS.md`, `00_MasterPlan.md`, today's `DayXX.md`, and optionally the previous Day file.
+4. Do not browse the web unless the current concept requires up-to-date or official documentation. If browsing is needed, explain why first and keep it narrow.
+5. Start with one concept block only. Explain it, give one short example, then ask the user a question and wait.
+6. Do not reveal all answers or full practice solutions before the user attempts the problems.
+7. Save notes only when the user says `저장해줘`, `마무리해줘`, `정리해줘`, or `commit해줘`, or when the Day is explicitly ending.
+8. If there are uncommitted changes from another session, do not overwrite or revert them. Report them briefly and continue the tutoring conversation.
+
+Correct first response for a new Day:
+
+```text
+Git 상태를 확인했고, 오늘은 Day N입니다. 파일 작성은 나중에 하고 먼저 과외식으로 진행하겠습니다. 첫 번째 개념은 ... 입니다.
+```
+
+Incorrect behavior:
+
+```text
+DayXX.md를 먼저 완성한다.
+개념 노트를 먼저 만든다.
+연습문제와 정답을 한 번에 다 작성한다.
+공식 문서를 광범위하게 검색한다.
+```
+
 ## Start Of Every New Session
 
 새 대화 세션에서 이 프로젝트를 이어갈 때 Codex는 먼저 다음을 수행한다.

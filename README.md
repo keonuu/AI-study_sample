@@ -16,6 +16,33 @@ F:\MyDesktop\AI_30Day_MasterPlan 프로젝트에서 이어가자. 먼저 README.
 F:\MyDesktop\AI_30Day_MasterPlan 프로젝트에서 이어가자. Day 9 MCP 학습을 시작하자. 먼저 README.md와 AGENTS.md를 읽고, Git 상태를 확인한 뒤 Day 8 핵심만 짧게 복습하고 Day 9 계획을 브리핑해줘.
 ```
 
+## Short Start Command
+
+새 세션에서는 길게 설명하지 않아도 된다. 아래처럼 짧게 시작한다.
+
+```text
+AI 30일 플랜 Day N 시작
+```
+
+Codex는 이 말을 들으면 다음처럼 처리해야 한다.
+
+```text
+1. F:\MyDesktop\AI_30Day_MasterPlan 프로젝트 규칙을 따른다.
+2. Git 상태와 오늘 Day 파일만 최소한으로 확인한다.
+3. 파일을 먼저 작성하지 않는다.
+4. 과외식으로 개념 하나를 설명하고 질문 하나를 낸 뒤 기다린다.
+5. Day 마지막에 사용자가 요청하면 그때 학습 기록을 저장하고 commit을 추천한다.
+```
+
+금지되는 흐름:
+
+```text
+Day 파일을 먼저 채우기
+개념 노트를 먼저 만들기
+문제와 정답을 한 번에 다 쓰기
+사용자 답변 없이 학습을 끝낸 것처럼 기록하기
+```
+
 ## Current Learning Style
 
 매일 학습은 다음 순서로 진행한다.
