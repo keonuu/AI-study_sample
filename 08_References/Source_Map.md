@@ -13,8 +13,12 @@
 
 ## MCP
 
+- MCP introduction: https://modelcontextprotocol.io/docs/getting-started/intro
 - MCP specification: https://modelcontextprotocol.io/specification/latest
 - MCP architecture: https://modelcontextprotocol.io/docs/learn/architecture
+- MCP concepts: https://modelcontextprotocol.io/docs/concepts/tools
+- MCP resources: https://modelcontextprotocol.io/docs/concepts/resources
+- MCP prompts: https://modelcontextprotocol.io/docs/concepts/prompts
 - MCP GitHub repository: https://github.com/modelcontextprotocol/modelcontextprotocol
 
 ## Git And GitHub
@@ -28,4 +32,3 @@
 - 블로그, YouTube, Instagram, X의 팁은 "실험 후보"로만 기록한다.
 - 학술적 주장은 논문, 공식 문서, 교재 또는 신뢰 가능한 리뷰 자료로 확인한다.
 - 출처 없는 주장은 LLM Wiki에 사실처럼 저장하지 않는다.
-
