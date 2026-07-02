@@ -1,0 +1,3 @@
+condition,count,mean,std,min,max
+control,3,5.2,0.20000000000000018,5.0,5.4
+treated,3,7.8,0.5196152422706626,7.2,8.1

@@ -1,0 +1,7 @@
+sample,condition,expression
+S1,control,5.0
+S2,control,5.4
+S3,control,5.2
+S4,treated,7.2
+S5,treated,8.1
+S6,treated,8.1
