@@ -26,6 +26,7 @@ branch, commit message, push, pull request 흐름을 실제로 연습한다.
 - 개인 프로젝트에서도 PR은 merge 전 변경 파일과 diff를 스스로 점검하는 검토 화면으로 의미가 있음을 확인했다.
 - `git switch -c day12-git-practice`는 새 branch를 만들고 그 branch로 이동하는 명령임을 학습했다.
 - 세션 마무리 시점에 현재 branch가 `day12-git-practice`인 것을 확인했다. 이번 정리 commit은 이 branch에 남기고, push와 Pull Request는 아직 실행하지 않았다.
+- 이어진 실습에서 `git add`는 새 파일 변경을 만들어내는 명령이 아니라, 이미 생긴 변경사항을 staging area에 올리는 명령임을 다시 확인했다.
 
 ## Questions And Answers
 
